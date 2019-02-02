@@ -1,0 +1,81 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>
+            Politico - A new and revolutionary fail proof voting system
+        </title>
+        <link rel = "stylesheet" href = "politico.css">
+        <script src = politico.js></script>
+        <meta charset = "UTF-8">
+        <meta name = "description" content = "Politico:New voting system homepage">
+        <meta name = "keywords" content = "Politico, Voting, Election, Vote user sign up">
+        <meta name = "Author" content = "Peter Okoth">
+    </head>
+    <body>
+            <div class="topnav">
+                    <a class="active" href="index.html">Home</a>
+                    <a href="sign_up.html">Sign Up</a>
+                    <a href="log_in.html">Log In</a>
+                    <a href = "admin_login.html">Admin</a>
+                    <a href="about.html">About Politico</a>
+                  </div>
+        <div id = 'header'>
+        <marquee direction = "right", width = "50%", height = "20%"><h1>Welcome to Politico, please sign up to vote</h1></marquee>
+        </div>
+        <h4>A new and revolutionary, yet fail-proof and efficient voting system</h4>
+        
+        <h5>New to Politico interface, Click <a href = "about.html"> <strong style="color:blue" >more about Politico</strong></a> to learn more</h5>
+        <h5>If you have some time to spare, please never hasitate to send us email at okothpeter99@gmail.com for further help</h5>
+        <h2>Happy Voting</h2>
+        <div>
+           <p><img src = "images\vote2.png", alt = "Politico logo", style = "width:180px; height: 100px"></p>
+        </div>
+            <h3>Not a regidtered voter yet? Please take some  few moments to sign up below:</h3>
+        <div>
+            <form action = "action_page.py" method = "post">
+                First Name:<br/>
+                <input type = "text" name = "firstname" required = "required">
+                <br/>
+                Middle Name:<br/>
+                <input type = "text" name = "middlename" required = "required">
+                <br/>
+                Last Name: <br/>
+                <input type = "text" name = "Last Name" required = "required">
+                <br/>
+                ID/Passport Number:</br>
+                <input type = "text" name = "id/passportnumber" required = "required">
+                <br/>
+                Region Code:<br/>
+                <input type = "text" name = "regioncode" required = "required">
+                <br/>
+                Account Type:<br/>
+                <select name = "account_type">
+                    <option value = "voter">Voter</option>
+                    <option value = "politician">Politician</option>
+                    <option value = "admin">Admin</option>
+
+                </select>
+                <br/> 
+                Enter password:<br/>
+                <input type = "password"; name = "pswd" required = "required">
+                <br/>
+                Repeat password: <br/>
+                <input type = "password"; name = "pswd2" required = "required">
+                <br/> <br/>
+                <input type = "submit" value = "SIGN UP">
+    
+            </form>
+        </div>
+            <h3>In case you are registered user, please click <a href = log_in.html><strong style="color:blue">I want to log in</strong></a> in order to log in</h3>
+            <footer>
+                    <p>
+                    <a href = "https://facebook.com"><img border = 0; src = "images/facebook.png", alt = "Facebook Avtar" style = "height:85px; width:85px"></a>
+                    <a href = "https://youtube.com"><img border = 0; src = "images/youtube.jpg", alt = "Youtube link"; style = "heght: 85px; width:85px"></a>
+                    <a href = "+254700397423"><img border = 0; src = "images/whatsapp.jpg"; alt = "whatsapp avatar" style = "width: 85px; heiht:85px"></a>
+                    <a href = "https://www.linkedin.com/in/pytah/"><img border =0; src = "images/linkedin.jpg" alt = "linkedin profile"; style = "width:85px; height:85px"></a>
+                    
+                    </p>
+                
+                  </footer>
+    </body>
+</html>
